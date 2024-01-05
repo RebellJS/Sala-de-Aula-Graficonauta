@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graficonauta Regulamento</title>
+
+    <style>
+
+        h1 {
+            font-family: 'system-ui';
+            text-align: justify;
+            font-weight: 800;
+            font-size: 50px;
+            margin-bottom: 3px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin: 5px;
+        }
+
+        h2 {
+            font-family: 'system-ui';
+            text-align: justify;
+            font-weight: 800;
+            color: rgb(183,11,89);
+            margin-top: 75px;
+            margin-bottom: 25px;
+            text-align: center;
+            letter-spacing: 23px;
+        }
+
+        h3 {
+            font-family: 'system-ui';
+            text-align: justify;
+            font-weight: 800;
+            color: #fff ;
+            padding: 8px;
+            border-radius: 10px 0px;
+            margin-bottom: 0px;
+            background: rgb(183,11,89);
+            background: linear-gradient(90deg, rgba(183,11,89,1) 0%, rgba(183,11,89,1) 36%, rgba(43,45,60,1) 87%);
+
+        }
+
+        .texto-do-corpo {
+            font-family: 'system-ui';
+            background-color: white;
+            text-align: justify;
+            font-weight: 400;
+            letter-spacing: 0.01em;
+            margin-bottom: 25px;
+            padding: 8px;
+            padding-top: 25px;
+            border-left: rgb(183,11,89) 1px ridge;
+        }
+
+        .texto-do-corpo span {
+            font-weight: 700;
+        }
+        
+
+        .titulo-regulamento {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: url("https://uploaddeimagens.com.br/images/004/694/174/full/galaxy_maneirinha.png?1703008357");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #9607a1;
+            background-blend-mode: soft-light;
+            border-radius: 28px;
+        }
+
+        .titulo-regulamento img {
+            max-width: 15%;
+            max-height: 80%;
+            height: fit-content;
+            padding: 15px;
+        }
+
+        .titulo-regulamento h1 {
+            max-width: 70%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            h2 {
+                letter-spacing: 6px;
+            }
+
+            h3 {
+                font-size: 16px;
+                text-align: left;
+            }
+
+            .titulo-regulamento img {
+                display: none;
+            }
+
+            .titulo-regulamento h1 {
+            max-width: 100%;
+            height: auto;
+            padding: 10px;
+        }
+            
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="titulo-regulamento">
+        <img src="https://uploaddeimagens.com.br/images/004/694/462/full/pngwing.com_%2843%29.png?1703023841">
+        <h1><span style="font-weight: 700; font-size: 24px;">PROMOÇÃO</span><br> O PATRÃO CAIU DA NAVE!</h1>
+        <img src="https://uploaddeimagens.com.br/images/004/694/463/full/NAVE.png?1703023851">
+    </div>
+    
+    <h2>REGULAMENTO</h2>
+
+    <h3>ABRANGÊNCIA E PERÍODO DA PROMOÇÃO</h3>
+    <div class="texto-do-corpo">
+        A Promoção se estende a todos os revendedores devidamente cadastrados e ativos no sistema de e-commerce da Graficonauta que efetuarem pedidos do dia 01/01/2024 a 29/02/2024.
+    </div>
+
+    <h3>PEDIDOS VÁLIDOS PARA PARTICIPAR DA PROMOÇÃO</h3>
+    <div class="texto-do-corpo">
+        Só serão contabilizados para promoção os pedidos devidamente pagos, qualquer outro pedido feito no sistema de e-commerce da Graficonauta que não tiver o seu pagamento reconhecido pelo departamento financeiro administrativo não participará da promoção.
+        <br>
+        <br>
+        Participará da promoção todo e qualquer pedido feito no período acima descrito e que esteja devidamente pago, mesmo se o pedido não estiver concluído, ou seja, caso ele esteja em produção, ainda assim ele será contabilizado na promoção, uma vez que o mesmo se encontre devidamente pago e esse pagamento tenha sido homologado pelo administrativo e reconhecido pelo sistema.
+    </div>
+    
+    <h3>ARREDONDAMENTO DO VALOR</h3>
+    <div class="texto-do-corpo">
+        Todos os pedidos válidos, feitos dentro do período estipulado, serão somados e sua soma total será 
+        arredondada para baixo afim de que a última unidade contábil seja uma centena.
+        <br>
+        <br>
+        Exemplo: O revendedor Y teve <span>R$ 4.357,50</span> (quatro mil, trezentos e cinquenta e sete reais 
+        e cinquenta centavos) de pedidos válidos feitos <span>em janeiro</span> e <span>R$ 6.252,30</span> (seis mil, duzentos e 
+        cinquenta e dois reais e trinta centavos) de pedidos válidos feitos <span>em fevereiro</span>, logo seu valor 
+        total de pedidos válidos no período é de <span>R$ 10.609,80</span> (dez mil, seiscentos e nove reais e oitenta 
+        centavos).
+        <br>
+        <br>
+        Seguindo a regra do arredondamento para baixo afim de que a última unidade contábil seja uma 
+        centena o valor final válido para participar da promoção será de <span>R$ 10.600,00</span> (dez mil e 
+        seiscentos reais).
+    </div>
+
+    <h3>REGRAS DO CASHBACK</h3>
+    <div class="texto-do-corpo">
+        50% do valor total de pedidos válidos dentro do período da promoção retornará em forma de 
+        créditos para o cliente. Esse valor será contabilizado dentro da conta corrente do sistema 
+        de e-commerce e não será creditado em hipótese alguma em contas bancárias nem do cliente nem 
+        de terceiros, sendo válido apenas para uso no próprio sistema de e-commerce da Graficonauta.
+        <br>
+        <br>
+        O valor é intransferível, só terá direito de usufruir do valor dos <span>50% de Cashback</span> o cadastro 
+        que realizou os pedidos válidos dentro do período da promoção, sendo vetada a transferência dos 
+        créditos para contas de outros clientes cadastrados no sistema de e-commerce da Graficonauta.
+        <br>
+        <br>
+        Exemplo: Tendo como base o exemplo anterior, onde o valor total de pedidos válidos no período 
+        foi de <span>R$ 10.600,00 (dez mil e seiscentos reais)</span> o <span>CASHBACK</span> a ser atribuído é de <span>R$ 5.300,00</span> 
+        (cinco mil e trezentos reais), valor esse que representa <span>50% do valor total de pedidos válidos</span> 
+        para participar da promoção. Esse valor será creditado na conta corrente do sistema de e-commerce 
+        da Graficonauta, no respectivo cadastro que efetuou os pedidos e, portanto, detém o direito sobre 
+        os mesmos.
+    </div>
+
+    <h3>VÁLIDADE DO CASHBACK E DATA DE CRÉDITO</h3>
+    <div class="texto-do-corpo">
+        Todo cashback adquirido na promoção, e apenas esse, terá <span>validade de 30 dias corridos</span> a contar da 
+        data que o mesmo fora creditado na conta corrente no sistema de e-commerca de Graficonauta, isso 
+        não se abrange há outras formas de cashback como por exemplo, a compra de créditos, ou seja, essa 
+        data de validade aplica-se apenas aos valores de cashback da referida promoção. 
+        <br>
+        <br>
+        O valor total de cashback acumulado durante o período válido será creditado na conta corrente do 
+        sistema de e-commerce da Graficonauta do cliente que detêm os direitos sobre o mesmo em 10 parcelas 
+        com vencimento a cada da 20 do mês, com a primeira a contar em 20 de março de 2024. As demais 
+        parcelas terão vencimentos consecutivos em cada dia 20 do mês subsequente concluindo o pagamento 
+        do cashback no dia 20 do mês de dezembro de 2024.
+        <br>
+        <br>
+        Exemplo: Tendo como base os exemplos anteriores onde o valor total de cashback adquirido é de 
+        R$ <span>5.300,00</span> (cinco mil e trezentos reais) esse valor será creditado na conta corrente do sistema 
+        de e-commerce da Graficonauta em <span>10 parcelas iguais de R$ 530,00</span> (quinhentos e trinta reais) com 
+        <span>a primeira para</span> vencimento no dia <span>20 de março de 2024</span> e as subsequentes em cada mês seguinte até <span>a 
+        última no dia 20 de dezembro de 2024</span>.
+    </div>
+
+    <h3>VALORES NÃO CONTABILIZADOS PARA O CASHBACK</h3>
+    <div class="texto-do-corpo">
+        Taxas de entrega, valores de frete ou balcões de retirada <span>não serão contabilizados para o cashback</span>, serão contabilizados apenas os valores referentes a produção dos pedidos válidos realizados dentro do período da promoção.
+        <br>
+        <br>
+        Serviços que foram pagos, mas por qualquer questão de força maior tenham tido seu valor estornado, também não serão contabilizados para o cashback, não participando assim da promoção.
+    </div>
+
+    <h3>CANCELAMENTOS DE PEDITOS FEITOS COM O CASHBACK</h3>
+    <div class="texto-do-corpo">
+        Se por motivo de força maior algum pedido realizado no sistema de e-commerce da Graficonauta, que tenha sido pago utilizando os créditos de cashback dessa referida promoção, precisar ser cancelado, o seu valor será novamente creditado na conta corrente do sistema de e-commerce da Graficonauta, sendo vetada a restituição de valor em conta bancária uma vez que o valor é oriundo do crédito da promoção.
+    </div>
+
+    <h3>DEMAIS DÚVIDAS E ESCLARECIMENTOS</h3>
+    <div class="texto-do-corpo">
+        Se ainda assim lhe restar alguma dúvida sobre a promoção e seu regulamento não hesite em nos contactar, nossa equipe estará a postos para lhe ajudar e dirimir quaisquer questões que venham surgir. Sucesso!
+    </div>
+
+</body>
+
+</html>
